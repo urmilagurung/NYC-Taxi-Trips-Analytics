@@ -8,7 +8,7 @@ This repository contains code and queries for analyzing New York City (NYC) taxi
 2. NYC Zones dataset: This dataset contains information about zones where taxi trips can originate or terminate.
 
 ### Tasks Summaries
-#### PySpark Analysis
+#### 1. PySpark Analysis
 ##### Data Cleaning
 Remove records with zero distance or no passengers.
 Handle outlier records in the dataset.
@@ -24,7 +24,7 @@ Obtain the top 10 ranks based on the above criteria.
 ##### Execution Time Measurement
 Record the total and task-specific execution times for each dataset size and format.
 
-#### Neo4j Analysis
+#### 2. Neo4j Analysis
 ##### Task 0 - Find Isolated Nodes
 Identify isolated nodes and self-pointing relationships in the Neo4j database.
 
